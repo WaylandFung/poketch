@@ -1,0 +1,122 @@
+:root{
+  --dimMuliplier: 2;
+  --defWidth: 256px;
+  --defHeight: 192px;
+}
+
+
+.default {
+  position: absolute;
+  width: calc(var(--dimMuliplier) * var(--defWidth));
+  height: calc(var(--dimMuliplier) * var(--defHeight));
+}
+
+/*main*/
+
+.App {
+  position: absolute;
+  
+}
+
+
+/*Watch Frame*/
+
+.watch_frame{
+  position: absolute;
+  
+}
+
+.Top-Button{
+  position: absolute;
+  top: calc(var(--dimMuliplier) * 36px);
+  left: calc(var(--dimMuliplier) * 227px);
+  width: calc(var(--dimMuliplier) * 29px);
+  height: calc(var(--dimMuliplier) * 59px);
+}
+
+.Bottom-Button{
+  position: absolute;
+  top: calc(var(--dimMuliplier) * 97px);
+  left: calc(var(--dimMuliplier) * 227px);
+  width: calc(var(--dimMuliplier) * 29px);
+  height: calc(var(--dimMuliplier) * 59px);
+}
+
+/*App0*/
+
+.Top-Colon{
+  position: absolute;
+  top: calc(var(--dimMuliplier) * 72px);
+  left: calc(var(--dimMuliplier) * 104px);
+  width: calc(var(--dimMuliplier) * 8px);
+  height: calc(var(--dimMuliplier) * 8px);
+
+  opacity: .7;
+}
+.Bottom-Colon{
+  position: absolute;
+  top: calc(var(--dimMuliplier) * 104px);
+  left: calc(var(--dimMuliplier) * 104px);
+  width: calc(var(--dimMuliplier) * 8px);
+  height: calc(var(--dimMuliplier) * 8px);
+
+  opacity: .7;
+}
+
+.Hours0{
+  position: absolute;
+  top: calc(var(--dimMuliplier) * 56px);
+  left: calc(var(--dimMuliplier) * 28px);
+  width: calc(var(--dimMuliplier) * 32px);
+  height: calc(var(--dimMuliplier) * 72px);
+
+  opacity: .7;
+}
+
+.Minutes0{
+  position: absolute;
+  top: calc(var(--dimMuliplier) * 56px);
+  left: calc(var(--dimMuliplier) * 124px);
+  width: calc(var(--dimMuliplier) * 32px);
+  height: calc(var(--dimMuliplier) * 72px);
+
+  opacity: .7;
+}
+
+.Hours1{
+  position: absolute;
+  top: calc(var(--dimMuliplier) * 56px);
+  left: calc(var(--dimMuliplier) * 64px);
+  width: calc(var(--dimMuliplier) * 32px);
+  height: calc(var(--dimMuliplier) * 72px);
+
+  opacity: .7;
+  
+}
+
+.Minutes1{
+  position: absolute;
+  top: calc(var(--dimMuliplier) * 56px);
+  left: calc(var(--dimMuliplier) * 160px);
+  width: calc(var(--dimMuliplier) * 32px);
+  height: calc(var(--dimMuliplier) * 72px);
+
+  opacity: .7;
+}
+
+.Pika-Clock{
+  position: absolute;
+  width: calc(var(--dimMuliplier) * var(--defWidth));
+  height: calc(var(--dimMuliplier) * var(--defHeight));
+
+  opacity: .4;
+}
+
+.Clock-Display {
+  position: absolute
+  
+}
+
+
+
+
