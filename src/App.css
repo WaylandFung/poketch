@@ -106,8 +106,10 @@
 
 .Pika-Clock{
   position: absolute;
-  width: calc(var(--dimMuliplier) * var(--defWidth));
-  height: calc(var(--dimMuliplier) * var(--defHeight));
+  width: calc(var(--dimMuliplier) * 192px);
+  height: calc(var(--dimMuliplier) * 42px);
+  top: calc(var(--dimMuliplier) * 134px);
+  left: calc(var(--dimMuliplier) * 16px);
 
   opacity: .4;
 }
